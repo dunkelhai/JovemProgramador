@@ -3,19 +3,13 @@ import java.util.Scanner;
 public class AtividadeMetodos3 {
     public static void main(String[] args) {
         int vetor1[] = new int[10];
-        int soma;
-        float media;
-
+        int soma = 0;
+        float media = 0;
         lerVetor(vetor1);
-
         soma = somarNumeros(vetor1);
-
         System.out.println("A soma é: " + soma);
-
         media = calcularMedia(vetor1);
-
-        System.out.println("A média é: " + calcularMedia(vetor1));
-
+        System.out.println("A média é: " + media);
     }
 
     static void lerVetor(int[] vetor1){
