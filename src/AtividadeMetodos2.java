@@ -8,5 +8,6 @@ public class AtividadeMetodos2 {
     }
     public static void main(String[] args) {
         System.out.println(ePar(9));
+        System.out.println("Erro");
     }
 }
