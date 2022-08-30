@@ -6,7 +6,6 @@ public class ClasseVetor1 {
     Integer numeroPessoas = sc.nextInt();
     Double[] alturas = new Double[numeroPessoas];
     double somaAlturas = 0;
-
     for (int x = 0; x < alturas.length; x++){
         System.out.println("Digite a altura");
         alturas[x] = sc.nextDouble();
