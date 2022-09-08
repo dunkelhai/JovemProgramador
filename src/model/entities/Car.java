@@ -1,17 +1,25 @@
 package model.entities;
 
 public class Car {
-    Integer id;
+    private Integer id;
     String color;
     String model;
     Double maxSpeed;
     Boolean sunRoof;
 
+    public Car() {
+    }
+
+    public Car(Integer id, Double maxSpeed) {
+        this.id = id;
+        this.maxSpeed = maxSpeed;
+    }
+
     public Integer getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    private void setId(Integer id) {
         this.id = id;
     }
 
@@ -33,10 +41,6 @@ public class Car {
 
     public Double getMaxSpeed() {
         return maxSpeed;
-    }
-
-    public void setMaxSpeed(Double maxSpeed) {
-        this.maxSpeed = maxSpeed;
     }
 
     public Boolean getSunRoof() {
