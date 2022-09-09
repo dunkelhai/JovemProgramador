@@ -50,4 +50,15 @@ public class Car {
     public void setSunRoof(Boolean sunRoof) {
         this.sunRoof = sunRoof;
     }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "Id do carro: " + id +
+                "\n Cor do carro: " + color + '\'' +
+                "\n Modelo do carro: " + model + '\'' +
+                "\n Vel. Máxima: " + maxSpeed +
+                "\n Teto solar: " + sunRoof +
+                '}';
+    }
 }
